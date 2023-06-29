@@ -1,5 +1,5 @@
 import { Router } from "express";
-import sortPeople from "controllers/sorter.controller";
+import sortPeople from "../controllers/sorter.controller";
 
 const sorterRouter = Router();
 

@@ -1,6 +1,8 @@
 import express, { Request, Response, json } from "express";
+import dotenv from "dotenv";
 import httpStatus from "http-status";
-import sorterRouter from "routers/sorter.router";
+import sorterRouter from "./routers/sorter.router";
+dotenv.config();
 
 
 const app = express();
